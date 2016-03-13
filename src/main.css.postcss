@@ -1,0 +1,67 @@
+---
+plugins:
+  - postcss-import
+  - postcss-url
+  - autoprefixer
+  - postcss-nested
+---
+
+/**
+ * Dependencies
+ */
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import 'bootswatch/cosmo/bootstrap.css';
+@import 'components/nav';
+
+/**
+ * Background
+ */
+
+html {
+  height: 100%;
+}
+body {
+  background-image: url('/assets/background.jpg');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100% auto;
+  min-height: 100%;
+}
+
+/**
+ * Typography
+ */
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 4.5em;
+  color: #323486;
+}
+h3 {
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  font-size: 6em;
+  color: #323486;
+}
+
+/**
+ * Spacing
+ */
+.invite {
+  margin-top: 1em;
+}
+
+.venue {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.date {
+  margin-top: 5em;
+}
+
+.cta {
+  padding-top: 1em;
+}

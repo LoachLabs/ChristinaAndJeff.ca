@@ -1,0 +1,15 @@
+---
+pretty: true
+---
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="icon" type="image/png" href="/assets/favicon.png")
+    title= site.title
+    link(href="/main.css" rel="stylesheet")
+  body
+    #page-wrapper
+      != partial('nav')
+      != contents

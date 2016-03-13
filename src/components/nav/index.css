@@ -1,0 +1,7 @@
+/**
+ * Navigation
+ */
+nav a, nav a.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+}
