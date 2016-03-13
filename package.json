@@ -1,5 +1,5 @@
 {
-  "name": "christinaandjeff.com",
+  "name": "ChristinaAndJeff.ca",
   "version": "0.0.1",
   "private": true,
   "description": "Christina and Jeffrey Wedding.",
@@ -10,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LoachLabs/christinaandjeff.ca.git"
+    "url": "https://github.com/LoachLabs/ChristinaAndJeff.ca.git"
   },
   "dependencies": {
     "autoprefixer": "^6.3.1",
+    "bootstrap": "^3.3.6",
     "bootswatch": "^3.3.6",
+    "jquery": "^2.2.1",
     "jstransformer-browserify": "0.4.0",
-    "jstransformer-clean-css": "^1.1.0",
     "jstransformer-jade": "0.1.0",
     "jstransformer-markdown-it": "^0.2.2",
     "jstransformer-postcss": "^1.1.0",
+    "jstransformer-uglify-js": "^1.1.1",
     "metalsmith": "^2.1.0",
-    "metalsmith-assets-convention": "0.0.1",
     "metalsmith-clean-urls": "^1.1.0",
     "metalsmith-jstransformer": "0.6.0",
     "metalsmith-jstransformer-partials": "^1.1.0",

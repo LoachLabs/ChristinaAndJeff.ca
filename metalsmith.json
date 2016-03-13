@@ -3,7 +3,6 @@
     "metalsmith-metadata-convention": {},
     "metalsmith-jstransformer-partials": {},
     "metalsmith-jstransformer": {},
-    "metalsmith-assets-convention": {},
     "metalsmith-clean-urls": {}
   }
 }

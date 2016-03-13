@@ -1,0 +1,9 @@
+/**
+ * Dependencies
+ */
+
+// jQuery
+var $ = global.jQuery = require('jquery')
+
+// Bootstrap
+global.Bootstrap = require('bootstrap')
